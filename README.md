@@ -1,6 +1,7 @@
 0x16. C - Simple Shell
 
 Requirements
+
 General
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -35,7 +36,7 @@ Example:
 $ echo "echo 'hello'" | ./shellex
 'hello'
 $
-If shellex is invoked with standard input connected to a terminal (determined by isatty(3)), an interactive shell is opened. When executing interactively, shellex displays the prompt $ when it is ready to read a command.
+If shellex is invoked with standard input connected to a terminal (determined by isatty(3)), an interactive shell is opened. When executing interactively, shellex displays the prompt $  when it is ready to read a command.
 
 Example:
 
@@ -232,10 +233,3 @@ $ unsetenv NAME
 $ echo $NAME
 
 $
-Authors black_nib
-Suara Ayomide || Github | Twitter | email
-Ismail Jamiu || Github | Twitter | email
-Acknowledgements pray
-shellex emulates basic functionality of the sh shell. This README borrows form the Linux man pages sh(1) and dash(1).
-
-
